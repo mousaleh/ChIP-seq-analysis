@@ -1,0 +1,5 @@
+/N/slate/mousaleh/test/
+/N/slate/mousaleh/genome/Saccharomyces_cerevisiae/UCSC/sacCer3/Sequence/Bowtie2Index/genome
+Paired
+8
+
