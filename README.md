@@ -1,5 +1,5 @@
 # ChIP-seq-analysis
-This is a script that takes in *fastq.gz* files from paired-end or single-end ChIP-seq experiments and generates *fastqc*, *sam*, sorted and unsorted *bam* and *Bigwig* files. All the generated files are in separate appropriately named directroies.
+This is a script that takes in *fastq.gz* files from paired-end or single-end ChIP-seq experiments and generates *fastqc*, *sam*, sorted and unsorted *bam* and *Bigwig* files. All the generated files are in separate appropriately named directories.
 You will need to supply two text files: **Samples.txt** and **Info.txt** and load the following modules programs:
 - Fastqc
 - Bowtie2
