@@ -1,0 +1,2 @@
+Med26-1	/N/dc2/scratch/mousaleh/elKhattabi-RNA/elK-ChIP/Med26_ChIP/SRX4895124.fastq	narrow
+Med26-2	/N/dc2/scratch/mousaleh/elKhattabi-RNA/elK-ChIP/Med26_ChIP/SRX4895125.fastq	narrow

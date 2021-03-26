@@ -1,0 +1,1 @@
+MS410	ChEC-MS410_S11_R1_001.fastq.gz	ChEC-MS410_S11_R2_001.fastq.gz
