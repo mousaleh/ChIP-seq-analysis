@@ -17,12 +17,35 @@ This is a text file that has the following information in separate lines
 - **line 3** The type of the experiment. This can only be **Single**, for single-end experiments, or **Paired**, for paired-end experiments
 - **line 4** The number of processors available for analysis
 ## quickstart
+
+#### Installing bowtie2 index
+You can download bowtie2 index of your genome of choice from [here] (http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)
+
+#### loading Conda environment
 load the conda environment using the following command:
 ```
 conda activate ChIP-seq 
 ```
+#### Running the script
+
 Specify the path for Samples.txt and Info.txt files in the code using any text editor
 ```
 Samples="/full/path/Samples.txt"
 Info="/full/path/Info.txt"
+```
+
+After successfully preparing your "Samples.txt" and "Info.txt" files and including the full path to these text files in the upper part of the script.
+You need to make sure that your shell script is executable using the following command:
+```
+chmod +x ChIP_analysis.sh
+```
+Then you can run the script using this command:
+
+```
+./ChIP_analysis.sh
+```
+OR
+
+```
+bash ChIP_analysis.sh
 ```
