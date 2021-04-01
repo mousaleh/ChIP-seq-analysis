@@ -50,7 +50,7 @@ GBR.calculator<-function(myfile,strand.col,Start.col,End.col,chrom.col,Id.col, T
 
 
 # Region_count_generator --------------------------------------------------
-#This function
+#This function uses bam files to count reads in the features/regions defined by the user using the TSSR.calculator function or GBR.calculator function
 
 Region_count_generator <-function(bam_files, SAF_file, out.dir, threads,
                                 Paired=TRUE, #if experiment is Paired-end
