@@ -28,7 +28,7 @@ conda activate ChIP-seq
 ```
 #### Running the script
 
-Specify the path for Samples.txt and Info.txt files in the code using any text editor
+Specify the path for Samples.txt and Info.txt files in the **ChIP_analysis.sh** file using any text editor
 ```
 Samples="/full/path/Samples.txt"
 Info="/full/path/Info.txt"
