@@ -92,7 +92,6 @@ done
 mkdir ""$fastqdir"bw"
 ##making CPM normalized bigwigs and using right command based on experiment type specified
 if [ "$myN" == "Single" ]; then
-then
   for i in $(seq "$rowN") #doing the for loop to run bamCoverage on the different files
   #extracting the name for files from sample sheet
   do v1=$(awk 'NR == '$i' { print $1 }' "$Samples")
