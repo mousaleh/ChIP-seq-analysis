@@ -19,7 +19,7 @@ This is a text file that has the following information in separate lines
 ## quickstart
 
 #### Installing bowtie2 index
-You can download bowtie2 index of your genome of choice from [here] (http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)
+You can download bowtie2 index of your genome of choice from [here](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)
 
 #### loading Conda environment
 load the conda environment using the following command:
