@@ -13,9 +13,10 @@ The second column should be the name of the *fastq.gz* file of the sample, if si
 ## Info.txt
 This is a text file that has the following information in separate lines
 - **line 1** The full path to the directory containing the *fastq.gz* files. This will also be the directory where all the output files and directories will be present.
-- **line 2** The full path to the bowtie-2 index
-- **line 3** The type of the experiment. This can only be **Single**, for single-end experiments, or **Paired**, for paired-end experiments
-- **line 4** The number of processors available for analysis
+- **line 2** The full path to the bowtie-2 index.
+- **line 3** The type of the experiment. This can only be **Single**, for single-end experiments, or **Paired**, for paired-end experiments.
+- **line 4** The number of processors available for analysis.
+
 ## quickstart
 
 #### Installing bowtie2 index
